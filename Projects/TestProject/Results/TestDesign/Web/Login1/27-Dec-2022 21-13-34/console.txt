@@ -1,0 +1,66 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : OpenJDK Runtime Environment
+java.version         : 16.0.1
+java.home            : C:\Users\User\Java\jdk-16.0.1
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Tue Dec 27 21:13:34 CET 2022
+Loading Browser Profile
+Loading RunManager
+[Scenario:Web] [TestCase: Login1] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-89] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 47985
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2022-12-27 21:13:35:12S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.saucedemo.com/ | Conditon:  | @27-Dec-2022 21:13:35.035
+[DONE]   | Opened Url: https://www.saucedemo.com/
+
+===================================================================================================
+
+Step:5   | Object: Username | Action: Set | Input: @test | Conditon:  | @27-Dec-2022 21:13:42.042
+Using @id [user-name], Object 'Username' Found in 44 ms
+[DONE]   | Entered Text 'test' on 'Username'
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: takeScreenshot | Input:  | Conditon:  | @27-Dec-2022 21:13:51.051
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Web:Login1
+Executed Steps       : 3
+Passed Steps         : 3
+Failed Steps         : 0
+Time Taken           : 00:00:18
+-----------------------------------------------------
+
+Run Finished on Tue Dec 27 21:13:52 CET 2022
+-----------------------------------------------------
+ExecutionDate        : 27-Dec-2022 21-13-34
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:18
+ReportPath           : file:///C:\Users\User\MyWorkspace\CITS\cognizant-intelligent-test-scripter-2.0\Projects\TestProject\Results\TestDesign\Web\Login1\27-Dec-2022 21-13-34\summary.html
+-----------------------------------------------------
+[Thread-89] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\User\MyWorkspace\CITS\cognizant-intelligent-test-scripter-2.0\Projects\TestProject\Results\TestDesign\Web\Login1\27-Dec-2022 21-13-34\summary.html
+[Thread-89] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\User\MyWorkspace\CITS\cognizant-intelligent-test-scripter-2.0\Projects\TestProject\Results\TestDesign\Web\Login1\27-Dec-2022 21-13-34\summary.html]

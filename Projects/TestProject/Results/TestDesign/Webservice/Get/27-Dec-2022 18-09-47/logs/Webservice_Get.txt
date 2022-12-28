@@ -1,0 +1,45 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  OpenJDK Runtime Environment
+java.version                               :  16.0.1
+java.home                                  :  C:\Users\User\Java\jdk-16.0.1
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Tue Dec 27 18:09:47 CET 2022
+
+Scenario         :  [Webservice]
+TestCase         :  [Get]
+Browser          :  [No Browser]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:9  |  Object:Webservice  |  Action:setEndPoint  |  Input:@https://json-server.azurewebsites.net/users/  |  Condition:  | @27-Dec-2022 18:09:48.048
+[DONE]   | End point set : https://json-server.azurewebsites.net/users/
+
+
+===================================================================================================
+
+Step:10  |  Object:Webservice  |  Action:postRestRequest  |  Input:{
+    "first_name": "ash",
+    "last_name": "xyz",
+    "email": "ash@gmail.com"
+}  |  Condition:  | @27-Dec-2022 18:09:48.048
+[COMPLETE]   | Status code is : 201
+
+---------------------------------------------------
+Testcase Name        : Webservice:Get
+Executed Steps       : 2
+Passed Steps         : 1
+Failed Steps         : 0
+Time Taken           : 00:00:01
+---------------------------------------------------
+

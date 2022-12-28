@@ -1,0 +1,167 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  OpenJDK Runtime Environment
+java.version                               :  16.0.1
+java.home                                  :  C:\Users\User\Java\jdk-16.0.1
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Dec 28 16:05:18 CET 2022
+
+Scenario         :  [Sc1]
+TestCase         :  [Tc1]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:@https://www.saucedemo.com/  |  Condition:  | @28-Dec-2022 16:05:24.024
+[DONE]   | Opened Url: https://www.saucedemo.com/
+
+
+===================================================================================================
+
+Step:2  |  Object:Username  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:25.025
+[DONE]   | Clicking on Username
+
+
+===================================================================================================
+
+Step:3  |  Object:Username  |  Action:Set  |  Input:@standard_user  |  Condition:  | @28-Dec-2022 16:05:26.026
+[DONE]   | Entered Text 'standard_user' on 'Username'
+
+
+===================================================================================================
+
+Step:4  |  Object:Password  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:26.026
+[DONE]   | Clicking on Password
+
+
+===================================================================================================
+
+Step:5  |  Object:Password  |  Action:setEncrypted  |  Input:@SZpqTtjfW+i4z45kdTv2OA== Enc  |  Condition:  | @28-Dec-2022 16:05:27.027
+[DONE]   | Entered Encrypted Text SZpqTtjfW+i4z45kdTv2OA== on Password
+
+
+===================================================================================================
+
+Step:6  |  Object:Login  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:28.028
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:7  |  Object:Add to cart  |  Action:setObjectProperty  |  Input:@Sauce Labs Bolt T-Shirt  |  Condition:#nameofItem  | @28-Dec-2022 16:05:28.028
+[DONE]   | Setting Object Property for #nameofItem with Sauce Labs Bolt T-Shirt for Object [Swag - Add to cart]
+
+
+===================================================================================================
+
+Step:8  |  Object:Add to cart  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:29.029
+[DONE]   | Clicking on Add to cart
+
+
+===================================================================================================
+
+Step:9  |  Object:1  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:29.029
+[DONE]   | Clicking on 1
+
+
+===================================================================================================
+
+Step:10  |  Object:Sauce Labs Bolt T-Shirt  |  Action:assertElementDisplayed  |  Input:  |  Condition:  | @28-Dec-2022 16:05:30.030
+[PASS]   | Element [Sauce Labs Bolt T-Shirt] is Displayed
+
+
+===================================================================================================
+
+Step:11  |  Object:Checkout  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:35.035
+[DONE]   | Clicking on Checkout
+
+
+===================================================================================================
+
+Step:12  |  Object:First Name  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:35.035
+[DONE]   | Clicking on First Name
+
+
+===================================================================================================
+
+Step:13  |  Object:First Name  |  Action:Set  |  Input:@Ashish  |  Condition:  | @28-Dec-2022 16:05:36.036
+[DONE]   | Entered Text 'Ashish' on 'First Name'
+
+
+===================================================================================================
+
+Step:14  |  Object:Last Name  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:37.037
+[DONE]   | Clicking on Last Name
+
+
+===================================================================================================
+
+Step:15  |  Object:Last Name  |  Action:Set  |  Input:@Ghosh  |  Condition:  | @28-Dec-2022 16:05:38.038
+[DONE]   | Entered Text 'Ghosh' on 'Last Name'
+
+
+===================================================================================================
+
+Step:16  |  Object:Zip/Postal Code  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:39.039
+[DONE]   | Clicking on Zip/Postal Code
+
+
+===================================================================================================
+
+Step:17  |  Object:Zip/Postal Code  |  Action:Set  |  Input:@1141KE  |  Condition:  | @28-Dec-2022 16:05:39.039
+[DONE]   | Entered Text '1141KE' on 'Zip/Postal Code'
+
+
+===================================================================================================
+
+Step:18  |  Object:Continue  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:40.040
+[DONE]   | Clicking on Continue
+
+
+===================================================================================================
+
+Step:19  |  Object:Total: $17.27  |  Action:assertElementTextContains  |  Input:@Total: $17.27  |  Condition:  | @28-Dec-2022 16:05:51.051
+[PASS]   | Total: $17.27's Text CONTAINS Total: $17.27 
+
+
+===================================================================================================
+
+Step:20  |  Object:Finish  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:05:57.057
+[DONE]   | Clicking on Finish
+
+
+===================================================================================================
+
+Step:21  |  Object:THANK YOU FOR YOUR ORDER  |  Action:assertElementDisplayed  |  Input:  |  Condition:  | @28-Dec-2022 16:05:57.057
+[PASS]   | Element [THANK YOU FOR YOUR ORDER] is Displayed
+
+
+===================================================================================================
+
+Step:22  |  Object:THANK YOU FOR YOUR ORDER  |  Action:Click  |  Input:  |  Condition:  | @28-Dec-2022 16:06:02.002
+[DONE]   | Clicking on THANK YOU FOR YOUR ORDER
+
+
+===================================================================================================
+
+Step:23  |  Object:Checkout: Complete!  |  Action:assertElementPresent  |  Input:  |  Condition:  | @28-Dec-2022 16:06:02.002
+[PASS]   | Element [Checkout: Complete!] is Present
+
+---------------------------------------------------
+Testcase Name        : Sc1:Tc1
+Executed Steps       : 23
+Passed Steps         : 23
+Failed Steps         : 0
+Time Taken           : 00:00:47
+---------------------------------------------------
+

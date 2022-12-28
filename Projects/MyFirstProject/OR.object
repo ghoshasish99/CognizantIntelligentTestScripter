@@ -1,0 +1,243 @@
+<Root type="OR" ref="MyFirstProject">
+  <Page title="Swag Labs" ref="Swag">
+    <ObjectGroup ref="Username">
+      <Object frame="" ref="Username">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="user-name" ref="name" pref="2"/>
+        <Property value="user-name" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@placeholder='Username']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div[2]/div/div/div/form/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="input_error form_input" ref="class" pref="7"/>
+        <Property value="#user-name" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;Username&quot; type=&quot;text&quot; data-test=&quot;username&quot; id=&quot;user-name&quot; name=&quot;user-name&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="password" ref="name" pref="2"/>
+        <Property value="password" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@placeholder='Password']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div[2]/div/div/div/form/div[2]/input" ref="xpath" pref="6"/>
+        <Property value="input_error form_input" ref="class" pref="7"/>
+        <Property value="#password" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;Password&quot; type=&quot;password&quot; data-test=&quot;password&quot; id=&quot;password&quot; name=&quot;password&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="login-button" ref="name" pref="2"/>
+        <Property value="login-button" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Login']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div[2]/div/div/div/form/input" ref="xpath" pref="6"/>
+        <Property value="submit-button btn_action" ref="class" pref="7"/>
+        <Property value="#login-button" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;submit&quot; class=&quot;submit-button btn_action&quot; data-test=&quot;login-button&quot; id=&quot;login-button&quot; name=&quot;login-button&quot; value=&quot;Login&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add to cart">
+      <Object frame="" ref="Add to cart">
+        <Property value="//a/div[text()='#nameofItem']/following::button[1]" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+        <Property value="" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="1">
+      <Object frame="" ref="1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="1" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'1')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/div/div[3]/a" ref="xpath" pref="6"/>
+        <Property value="shopping_cart_link" ref="class" pref="7"/>
+        <Property value="a.shopping_cart_link" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a class=&quot;shopping_cart_link&quot;>&lt;span class=&quot;shopping_cart_badge&quot;>1&lt;/span>&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sauce Labs Bolt T-Shirt">
+      <Object frame="" ref="Sauce Labs Bolt T-Shirt">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Sauce Labs Bolt T-Shirt']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div[3]/div[2]/a/div" ref="xpath" pref="6"/>
+        <Property value="inventory_item_name" ref="class" pref="7"/>
+        <Property value="div.inventory_item_name" ref="css" pref="8"/>
+        <Property value="div" ref="type" pref="9"/>
+        <Property value="&lt;div class=&quot;inventory_item_name&quot;>Sauce Labs Bolt T-Shirt&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="div" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Checkout">
+      <Object frame="" ref="Checkout">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="checkout" ref="name" pref="2"/>
+        <Property value="checkout" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//button[@name='checkout']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div[2]/button[2]" ref="xpath" pref="6"/>
+        <Property value="btn btn_action btn_medium checkout_button" ref="class" pref="7"/>
+        <Property value="#checkout" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;btn btn_action btn_medium checkout_button&quot; data-test=&quot;checkout&quot; id=&quot;checkout&quot; name=&quot;checkout&quot;>Checkout&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="First Name">
+      <Object frame="" ref="First Name">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="firstName" ref="name" pref="2"/>
+        <Property value="first-name" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@placeholder='First Name']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div/form/div/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="input_error form_input" ref="class" pref="7"/>
+        <Property value="#first-name" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;First Name&quot; type=&quot;text&quot; data-test=&quot;firstName&quot; id=&quot;first-name&quot; name=&quot;firstName&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Last Name">
+      <Object frame="" ref="Last Name">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="lastName" ref="name" pref="2"/>
+        <Property value="last-name" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@placeholder='Last Name']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/form/div/div[2]/input" ref="xpath" pref="6"/>
+        <Property value="input_error form_input" ref="class" pref="7"/>
+        <Property value="#last-name" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;Last Name&quot; type=&quot;text&quot; data-test=&quot;lastName&quot; id=&quot;last-name&quot; name=&quot;lastName&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Zip/Postal Code">
+      <Object frame="" ref="Zip/Postal Code">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="postalCode" ref="name" pref="2"/>
+        <Property value="postal-code" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@placeholder='Zip/Postal Code']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/form/div/div[3]/input" ref="xpath" pref="6"/>
+        <Property value="input_error form_input" ref="class" pref="7"/>
+        <Property value="#postal-code" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;Zip/Postal Code&quot; type=&quot;text&quot; data-test=&quot;postalCode&quot; id=&quot;postal-code&quot; name=&quot;postalCode&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Continue">
+      <Object frame="" ref="Continue">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="continue" ref="name" pref="2"/>
+        <Property value="continue" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Continue']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/form/div[2]/input" ref="xpath" pref="6"/>
+        <Property value="submit-button btn btn_primary cart_button btn_action" ref="class" pref="7"/>
+        <Property value="#continue" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;submit&quot; class=&quot;submit-button btn btn_primary cart_button btn_action&quot; data-test=&quot;continue&quot; id=&quot;continue&quot; name=&quot;continue&quot; value=&quot;Continue&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Total: $17.27">
+      <Object frame="" ref="Total: $17.27">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Total: $17.27']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div[2]/div[7]" ref="xpath" pref="6"/>
+        <Property value="summary_total_label" ref="class" pref="7"/>
+        <Property value="div.summary_total_label" ref="css" pref="8"/>
+        <Property value="div" ref="type" pref="9"/>
+        <Property value="&lt;div class=&quot;summary_total_label&quot;>Total: $17.27&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="div" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Finish">
+      <Object frame="" ref="Finish">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="finish" ref="name" pref="2"/>
+        <Property value="finish" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//button[@name='finish']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div[2]/div[8]/button[2]" ref="xpath" pref="6"/>
+        <Property value="btn btn_action btn_medium cart_button" ref="class" pref="7"/>
+        <Property value="#finish" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;btn btn_action btn_medium cart_button&quot; data-test=&quot;finish&quot; id=&quot;finish&quot; name=&quot;finish&quot;>Finish&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="THANK YOU FOR YOUR ORDER">
+      <Object frame="" ref="THANK YOU FOR YOUR ORDER">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='THANK YOU FOR YOUR ORDER']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/h2" ref="xpath" pref="6"/>
+        <Property value="complete-header" ref="class" pref="7"/>
+        <Property value="h2.complete-header" ref="css" pref="8"/>
+        <Property value="h2" ref="type" pref="9"/>
+        <Property value="&lt;h2 class=&quot;complete-header&quot;>THANK YOU FOR YOUR ORDER&lt;/h2>" ref="outerHTML" pref="10"/>
+        <Property value="h2" ref="tagName" pref="11"/>
+        <Property value="Username" ref="placeholder" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Checkout: Complete!">
+      <Object frame="" ref="Checkout: Complete!">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Checkout: Complete!']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/div[2]/span" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;title&quot;>Checkout: Complete!&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

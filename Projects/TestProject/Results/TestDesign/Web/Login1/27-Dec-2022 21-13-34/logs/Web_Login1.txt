@@ -1,0 +1,47 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  OpenJDK Runtime Environment
+java.version                               :  16.0.1
+java.home                                  :  C:\Users\User\Java\jdk-16.0.1
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Tue Dec 27 21:13:34 CET 2022
+
+Scenario         :  [Web]
+TestCase         :  [Login1]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:@https://www.saucedemo.com/  |  Condition:  | @27-Dec-2022 21:13:36.036
+[DONE]   | Opened Url: https://www.saucedemo.com/
+
+
+===================================================================================================
+
+Step:5  |  Object:Username  |  Action:Set  |  Input:@test  |  Condition:  | @27-Dec-2022 21:13:42.042
+[DONE]   | Entered Text 'test' on 'Username'
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:takeScreenshot  |  Input:  |  Condition:  | @27-Dec-2022 21:13:51.051
+[PASS]   | Screenshot is taken
+
+---------------------------------------------------
+Testcase Name        : Web:Login1
+Executed Steps       : 3
+Passed Steps         : 3
+Failed Steps         : 0
+Time Taken           : 00:00:18
+---------------------------------------------------
+

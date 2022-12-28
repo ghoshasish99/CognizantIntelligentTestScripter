@@ -1,0 +1,53 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  OpenJDK Runtime Environment
+java.version                               :  16.0.1
+java.home                                  :  C:\Users\User\Java\jdk-16.0.1
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Dec 28 14:51:26 CET 2022
+
+Scenario         :  [Web]
+TestCase         :  [Login1]
+Browser          :  [No Browser]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:AddVar  |  Input:=Round(=Random(6)):  |  Condition:%var%  | @28-Dec-2022 14:51:26.026
+[DONE]   | Variable %var% added with value 621319
+
+
+===================================================================================================
+
+Step:8  |  Object:Browser  |  Action:print  |  Input:%var%  |  Condition:  | @28-Dec-2022 14:51:26.026
+[DONE]   | printed 621319
+
+
+===================================================================================================
+
+Step:9  |  Object:Browser  |  Action:AddVar  |  Input:=Random(6):  |  Condition:%var%  | @28-Dec-2022 14:51:26.026
+[DONE]   | Variable %var% added with value 621077.3024931503
+
+
+===================================================================================================
+
+Step:10  |  Object:Browser  |  Action:print  |  Input:%var%  |  Condition:  | @28-Dec-2022 14:51:26.026
+[DONE]   | printed 621077.3024931503
+
+---------------------------------------------------
+Testcase Name        : Web:Login1
+Executed Steps       : 4
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:00:00
+---------------------------------------------------
+
