@@ -23,7 +23,7 @@ jobs:
       run: chmod -R 755 ./
 
     - name: Execute Testset
-      uses: ./Run.command -run -project_location "Projects/MyFirstProject" -release "Release1" -testset "Set1"
+      run: ./Run.command -run -project_location "Projects/MyFirstProject" -release "Release1" -testset "Set1"
 
     - name: Upload Test Results
       uses: actions/upload-artifact@v3.1.1
