@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,ItemToBuy,FirstName,LastName,ZipCode,TotalPrice
+Sc1,Tc1,1,1,Sauce Labs Bolt T-Shirt,Ashish-818282,Ghosh,1141KE,$17.27
+Sc1,Tc2,1,1,Sauce Labs Onesie,Ashish-902929,Ghosh,1141KE,$8.63

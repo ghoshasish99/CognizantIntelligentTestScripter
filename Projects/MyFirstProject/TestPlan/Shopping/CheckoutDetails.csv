@@ -1,0 +1,8 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Add a variable to access within testcase,AddVar,=Round(=Random(6)):,%var5%,
+2,Browser,Add a variable to access within testcase,AddVar,"=Concat(Ashish,%var5%):",%Fname%,
+3,First Name,Enter the value [<Data>] in the Field [<Object>],Set,%Fname%,,Swag
+4,Browser,Add a variable to access within testcase,AddVar,"=Concat(Ghosh,%var5%):",%Lname%,
+5,Last Name,Enter the value [<Data>] in the Field [<Object>],Set,%Lname%,,Swag
+6,Zip/Postal Code,Enter the value [<Data>] in the Field [<Object>],Set,%var5%,,Swag
+"*7",Continue,"Click the [<Object>] ",Click,,,Swag

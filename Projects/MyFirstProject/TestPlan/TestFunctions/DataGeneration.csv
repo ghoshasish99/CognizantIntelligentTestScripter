@@ -1,0 +1,13 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+"//1",Browser,Add a variable to access within testcase,AddVar,"=Date(0,dd/MM/yyyy):",%var1%,
+"//2",Browser,print the data [<Data>],print,%var1%,,
+"//3",Browser,Add a variable to access within testcase,AddVar,"=Date(+3,dd-MM-yyyy):",%var2%,
+"//4",Browser,print the data [<Data>],print,%var2%,,
+"//5",Browser,Add a variable to access within testcase,AddVar,"=Date(-20,yyyy-MM-dd):",%var3%,
+"//6",Browser,print the data [<Data>],print,%var3%,,
+"//7",Browser,Add a variable to access within testcase,AddVar,=Random(6):,%var4%,
+"//8",Browser,print the data [<Data>],print,%var4%,,
+9,Browser,Add a variable to access within testcase,AddVar,=Round(=Random(6)):,%var5%,
+10,Browser,print the data [<Data>],print,%var5%,,
+11,Browser,Add a variable to access within testcase,AddVar,"=Concat(Ashish,%var5%):",%var6%,
+12,Browser,print the data [<Data>],print,%var6%,,

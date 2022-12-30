@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,Login:URL,,
+2,Username,Enter the value [<Data>] in the Field [<Object>],Set,Login:Username,,Swag
+3,Password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,%password%,,Swag
+4,Login,"Click the [<Object>] ",Click,,,Swag

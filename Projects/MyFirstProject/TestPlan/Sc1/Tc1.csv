@@ -1,24 +1,5 @@
 Step,ObjectName,Description,Action,Input,Condition,Reference
-1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.saucedemo.com/,,
-2,Username,"Click the [<Object>] ",Click,,,Swag
-3,Username,Enter the value [<Data>] in the Field [<Object>],Set,@standard_user,,Swag
-4,Password,"Click the [<Object>] ",Click,,,Swag
-5,Password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@SZpqTtjfW+i4z45kdTv2OA== Enc,,Swag
-6,Login,"Click the [<Object>] ",Click,,,Swag
-7,Add to cart,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,@Sauce Labs Bolt T-Shirt,"#nameofItem",Swag
-8,Add to cart,"Click the [<Object>] ",Click,,,Swag
-9,1,"Click the [<Object>] ",Click,,,Swag
-10,Sauce Labs Bolt T-Shirt,Assert if [<Object>] element is displayed,assertElementDisplayed,,,Swag
-11,Checkout,"Click the [<Object>] ",Click,,,Swag
-12,First Name,"Click the [<Object>] ",Click,,,Swag
-13,First Name,Enter the value [<Data>] in the Field [<Object>],Set,@Ashish,,Swag
-14,Last Name,"Click the [<Object>] ",Click,,,Swag
-15,Last Name,Enter the value [<Data>] in the Field [<Object>],Set,@Ghosh,,Swag
-16,Zip/Postal Code,"Click the [<Object>] ",Click,,,Swag
-17,Zip/Postal Code,Enter the value [<Data>] in the Field [<Object>],Set,@1141KE,,Swag
-18,Continue,"Click the [<Object>] ",Click,,,Swag
-19,Total: $17.27,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,@Total: $17.27,,Swag
-20,Finish,"Click the [<Object>] ",Click,,,Swag
-21,THANK YOU FOR YOUR ORDER,Assert if [<Object>] element is displayed,assertElementDisplayed,,,Swag
-22,THANK YOU FOR YOUR ORDER,"Click the [<Object>] ",Click,,,Swag
-23,Checkout: Complete!,Assert if [<Object>] is present,assertElementPresent,,,Swag
+1,Execute,,General:Login,,,
+"*2",Execute,,Shopping:Add Items,,,
+3,Execute,,Shopping:CheckoutDetails,,,
+4,Execute,,Shopping:Finalise,,,

@@ -36,17 +36,93 @@
     "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
     "attributes" : [ ],
     "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "API Scenario",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "General",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Shopping",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "TestFunctions",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "regression",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
   } ],
   "data" : [ {
     "id" : "Sc1#Tc1",
     "name" : "Tc1",
-    "tags" : [ ],
+    "tags" : [ {
+      "value" : "regression"
+    } ],
     "attributes" : [ {
       "name" : "type",
       "value" : "testcase"
     }, {
       "name" : "scenario",
       "value" : "Sc1"
+    } ]
+  }, {
+    "id" : "Delete",
+    "name" : "Delete",
+    "tags" : [ {
+      "value" : "@smoke"
+    } ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "API Scenario"
+    } ]
+  }, {
+    "id" : "Get",
+    "name" : "Get",
+    "tags" : [ {
+      "value" : "@smoke"
+    } ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "API Scenario"
+    } ]
+  }, {
+    "id" : "Post",
+    "name" : "Post",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "API Scenario"
+    } ]
+  }, {
+    "id" : "Tc2",
+    "name" : "Tc2",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Sc1"
+    } ]
+  }, {
+    "id" : "DataGeneration",
+    "name" : "DataGeneration",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "TestFunctions"
     } ]
   } ]
 }

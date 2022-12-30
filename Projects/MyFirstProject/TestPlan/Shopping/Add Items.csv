@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Add to cart,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,Purchase:ItemToBuy,"#nameofItem",Swag
+2,Add to cart,"Click the [<Object>] ",Click,,,Swag
+3,Cart Icon,"Click the [<Object>] ",Click,,,Swag
+4,Item To Buy,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,Purchase:ItemToBuy,"#ItemtoBuy",Swag
+5,Item To Buy,Assert if [<Object>] element is displayed,assertElementDisplayed,,,Swag
+6,Checkout,"Click the [<Object>] ",Click,,,Swag

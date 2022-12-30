@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Total Price,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,Purchase:TotalPrice,,Swag
+2,Finish,"Click the [<Object>] ",Click,,,Swag
+3,Success Message1,Assert if [<Object>] element is displayed,assertElementDisplayed,,,Swag
+4,SuccessMessage2,Assert if [<Object>] is present,assertElementPresent,,,Swag

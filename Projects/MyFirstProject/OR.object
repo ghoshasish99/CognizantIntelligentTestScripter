@@ -59,18 +59,18 @@
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
         <Property value="" ref="type" pref="9"/>
-        <Property value="" ref="outerHTML" pref="10"/>
-        <Property value="" ref="tagName" pref="11"/>
+        <Property value="&lt;button class=&quot;btn btn_primary btn_small btn_inventory&quot; data-test=&quot;add-to-cart-sauce-labs-onesie&quot; id=&quot;add-to-cart-sauce-labs-onesie&quot; name=&quot;add-to-cart-sauce-labs-onesie&quot;>Add to cart&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
         <Property value="" ref="placeholder" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="1">
-      <Object frame="" ref="1">
+    <ObjectGroup ref="Cart Icon">
+      <Object frame="" ref="Cart Icon">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
-        <Property value="1" ref="link_text" pref="4"/>
-        <Property value="//a[contains(normalize-space(text()),'1')]" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
         <Property value="/html/body/div/div/div/div/div/div[3]/a" ref="xpath" pref="6"/>
         <Property value="shopping_cart_link" ref="class" pref="7"/>
         <Property value="a.shopping_cart_link" ref="css" pref="8"/>
@@ -80,18 +80,18 @@
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="Sauce Labs Bolt T-Shirt">
-      <Object frame="" ref="Sauce Labs Bolt T-Shirt">
+    <ObjectGroup ref="Item To Buy">
+      <Object frame="" ref="Item To Buy">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[normalize-space(text())='Sauce Labs Bolt T-Shirt']" ref="relative_xpath" pref="5"/>
+        <Property value="//*[normalize-space(text())='#ItemtoBuy']" ref="relative_xpath" pref="5"/>
         <Property value="/html/body/div/div/div/div[2]/div/div/div[3]/div[2]/a/div" ref="xpath" pref="6"/>
         <Property value="inventory_item_name" ref="class" pref="7"/>
         <Property value="div.inventory_item_name" ref="css" pref="8"/>
         <Property value="div" ref="type" pref="9"/>
-        <Property value="&lt;div class=&quot;inventory_item_name&quot;>Sauce Labs Bolt T-Shirt&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;div class=&quot;inventory_item_name&quot;>Sauce Labs Onesie&lt;/div>" ref="outerHTML" pref="10"/>
         <Property value="div" ref="tagName" pref="11"/>
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
@@ -176,18 +176,18 @@
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="Total: $17.27">
-      <Object frame="" ref="Total: $17.27">
+    <ObjectGroup ref="Total Price">
+      <Object frame="" ref="Total Price">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//*[normalize-space(text())='Total: $17.27']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
         <Property value="/html/body/div/div/div/div[2]/div/div[2]/div[7]" ref="xpath" pref="6"/>
         <Property value="summary_total_label" ref="class" pref="7"/>
         <Property value="div.summary_total_label" ref="css" pref="8"/>
         <Property value="div" ref="type" pref="9"/>
-        <Property value="&lt;div class=&quot;summary_total_label&quot;>Total: $17.27&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;div class=&quot;summary_total_label&quot;>Total: $8.63&lt;/div>" ref="outerHTML" pref="10"/>
         <Property value="div" ref="tagName" pref="11"/>
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
@@ -208,8 +208,8 @@
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="THANK YOU FOR YOUR ORDER">
-      <Object frame="" ref="THANK YOU FOR YOUR ORDER">
+    <ObjectGroup ref="Success Message1">
+      <Object frame="" ref="Success Message1">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
@@ -224,8 +224,8 @@
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="Checkout: Complete!">
-      <Object frame="" ref="Checkout: Complete!">
+    <ObjectGroup ref="SuccessMessage2">
+      <Object frame="" ref="SuccessMessage2">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>

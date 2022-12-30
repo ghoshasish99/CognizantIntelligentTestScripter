@@ -1,2 +1,2 @@
 Scenario,Flow,Iteration,SubIteration,Response
-DataDrivenTests,IntegratedTest,1,1,"{""success"":{""text"":""successfully! deleted Records""}}"
+DataDrivenTests,IntegratedTest,1,1,"{""status"":""success"",""data"":""8786"",""message"":""Successfully! Record has been deleted""}"

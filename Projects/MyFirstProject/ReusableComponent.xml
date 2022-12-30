@@ -1,1 +1,12 @@
-<Root ref="MyFirstProject" type="RC"/>
+<Root ref="MyFirstProject" type="RC">
+<Folder ref="UI">
+<Scenario ref="General">
+<TestCase exeType="Executable" ref="Login"/>
+</Scenario>
+<Scenario ref="Shopping">
+<TestCase exeType="Executable" ref="Add Items"/>
+<TestCase exeType="Executable" ref="CheckoutDetails"/>
+<TestCase exeType="Executable" ref="Finalise"/>
+</Scenario>
+</Folder>
+</Root>
