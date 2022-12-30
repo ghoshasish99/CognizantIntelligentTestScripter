@@ -28,7 +28,7 @@ jobs:
     - name: Execute Testset
       env:
         REMOTE_URL: $ {{ secrets.REMOTE_EXECUTION_URL }}
-      run: ./Run.command -run -project_location "Projects/MyFirstProject" -release "Release1" -testset "Set1" -setEnv "run.RemoteGridURL=$REMOTE_URL" -setEnv "run.ExecutionMode=Grid" -setEnv "run.TestEnv=$ENVIRONMENT_TO_TEST"
+      run: ./Run.command -run -project_location "Projects/MyFirstProject" -release "Release1" -testset "Set1" -setEnv "run.RemoteGridURL=%REMOTE_URL%" -setEnv "run.ExecutionMode=Grid" -setEnv "run.TestEnv=$ENVIRONMENT_TO_TEST"
 
     - name: Upload Test Results
       uses: actions/upload-artifact@v3.1.1
