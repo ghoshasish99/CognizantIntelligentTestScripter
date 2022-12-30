@@ -26,7 +26,7 @@ jobs:
     - name: Set Permissions
       run: chmod -R 755 ./
 
-    - shell: cmd
+    - name: Execute CITS Test Set
       run: ./Run.command -run -project_location "Projects/MyFirstProject" -release "Release1" -testset "Set1" -setEnv "run.RemoteGridURL=$REMOTE_URL" -setEnv "run.ExecutionMode=Grid" -setEnv "run.TestEnv=$ENVIRONMENT_TO_TEST"
 
     - name: Upload Test Results
