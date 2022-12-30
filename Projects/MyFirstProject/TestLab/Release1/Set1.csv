@@ -1,4 +1,4 @@
 Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
 true,API Scenario,Delete,Single,Failed,No Browser,Default,Any
 true,API Scenario,Get,Single,Passed,No Browser,Default,Any
-true,Sc1,Tc1,Single,Passed,Chrome,Default,Any
+false,Sc1,Tc1,Single,Passed,Chrome,Default,Any
