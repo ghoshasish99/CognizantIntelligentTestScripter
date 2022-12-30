@@ -1,1 +1,0 @@
-place Selenium-standalone*.jar and all the drivers(chromeDriver,IEDriverServer,geckodriver) inside lib folder
