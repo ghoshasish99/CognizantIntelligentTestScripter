@@ -27,7 +27,7 @@ jobs:
 
     - name: Execute Testset
       env:
-        REMOTE_URL: $ {{ secret.REMOTE_EXECUTION_URL }}
+        REMOTE_URL: $ {{ secrets.REMOTE_EXECUTION_URL }}
       run: ./Run.command -run -project_location "Projects/MyFirstProject" -release "Release1" -testset "Set1" -setEnv "run.RemoteGridURL=$REMOTE_URL" -setEnv "run.ExecutionMode=Grid" -setEnv "run.TestEnv=$ENVIRONMENT_TO_TEST"
 
     - name: Upload Test Results
