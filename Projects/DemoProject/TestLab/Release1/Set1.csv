@@ -1,4 +1,0 @@
-Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
-true,BasicFeatures,DemoTestCase,Single,NoRun,Chrome,Default,Any
-true,BasicFeatures,LayoutTesting,Single,NoRun,Chrome,Default,Any
-true,BasicFeatures,Iterations&SubIterations,Single,NoRun,Chrome,Default,Any

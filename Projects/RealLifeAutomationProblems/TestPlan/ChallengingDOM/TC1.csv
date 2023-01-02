@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://the-internet.herokuapp.com/challenging_dom,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+3,Button1,"Click the [<Object>] ",highlight,,,The Internet
+4,Button2,"Click the [<Object>] ",highlight,,,The Internet
+5,Button3,"Click the [<Object>] ",highlight,,,The Internet
+6,edit,"Click the [<Object>] ",highlight,,,The Internet
+7,delete,"Click the [<Object>] ",highlight,,,The Internet
+"*8",Consequuntur6,"Click the [<Object>] ",Click,,,The Internet

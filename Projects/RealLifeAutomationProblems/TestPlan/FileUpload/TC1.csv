@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://the-internet.herokuapp.com/upload,,
+2,Browser,Returns Absolute Path,returnAbsolutePath,,,
+"*3",file,Enter the value [<Data>] in the Field [<Object>],Set,%absPath%,,The Internet
+4,Upload,"Click the [<Object>] ",Click,,,The Internet
+5,File Uploaded!,Assert if [<Object>] element is displayed,assertElementDisplayed,,,The Internet
+"*6",Browser,Wait for [<Data>] milli seconds,pause,@1,,

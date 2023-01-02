@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://the-internet.herokuapp.com/disappearing_elements,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+"*3",Gallery,Click the [<Object>] if it exists,ClickIfExists,,,The Internet
+4,Gallery,Click the [<Object>] if it exists,ClickIfExists,,,The Internet
+"*5",Browser,Wait for [<Data>] milli seconds,pause,@1,,

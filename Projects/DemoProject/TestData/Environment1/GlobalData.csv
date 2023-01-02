@@ -1,5 +1,0 @@
-GlobalDataID,URL,Discount,timeToWait
-"#gd1",file:///${user.dir}/DemoApplication/E-Commerce/Web_App/Home.htm,,
-"#gd2",file:///${user.dir}/DemoApplication/EcommerceRWD/login.html,,
-"#discount",,25,
-"#slowTime",,,2000

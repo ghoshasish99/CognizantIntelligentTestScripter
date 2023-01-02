@@ -1,0 +1,745 @@
+<Root type="OR" ref="RealLifeAutomationProblems">
+  <Page title="The Internet" ref="The Internet">
+    <ObjectGroup ref="Button1">
+      <Object frame="" ref="Button1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/div/div/div/div/a)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a id=&quot;2cee1750-6b86-013b-d4e8-6e6f2e4a2d22&quot; href=&quot;&quot; class=&quot;button&quot;>foo&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Button2">
+      <Object frame="" ref="Button2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div/div/div/a[2]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a id=&quot;2cee3240-6b86-013b-d4e9-6e6f2e4a2d22&quot; href=&quot;&quot; class=&quot;button alert&quot;>foo&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Button3">
+      <Object frame="" ref="Button3">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div/div/div/a[3]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a id=&quot;2cee4a90-6b86-013b-d4ea-6e6f2e4a2d22&quot; href=&quot;&quot; class=&quot;button success&quot;>baz&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="edit">
+      <Object frame="" ref="edit">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//td[text()='Consequuntur3']/following::a[text()='edit'][1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;#edit&quot;>edit&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="delete">
+      <Object frame="" ref="delete">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//td[text()='Phaedrum4']/following::a[text()='delete'][1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;#delete&quot;>delete&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Consequuntur6">
+      <Object frame="" ref="Consequuntur6">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Consequuntur6']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div/div/div[2]/table/tbody/tr[7]/td[5]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="td" ref="type" pref="9"/>
+        <Property value="&lt;td>Consequuntur6&lt;/td>" ref="outerHTML" pref="10"/>
+        <Property value="td" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Checkbox1">
+      <Object frame="" ref="Checkbox1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//input[@type='checkbox'])[1]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/div/form/input)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="checkbox" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;checkbox&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Checkbox2">
+      <Object frame="" ref="Checkbox2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//input[@type='checkbox'])[2]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/form/input[2]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="checkbox" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;checkbox&quot; checked=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="hot-spot">
+      <Object frame="" ref="hot-spot">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="hot-spot" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//div[2]/div/div/div" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="div" ref="type" pref="9"/>
+        <Property value="&lt;div id=&quot;hot-spot&quot; style=&quot;border-style: dashed; border-width: 5px; width: 250px; height: 150px;&quot; oncontextmenu=&quot;displayMessage()&quot;>&#xa;  &lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="div" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Gallery">
+      <Object frame="" ref="Gallery">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="Gallery" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Gallery')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/ul/li[5]/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;/gallery/&quot;>Gallery&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="dropdown">
+      <Object frame="" ref="dropdown">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="dropdown" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/select" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select id=&quot;dropdown&quot;>&#xa;    &lt;option value=&quot;&quot; disabled=&quot;disabled&quot;>Please select an option&lt;/option>&#xa;    &lt;option value=&quot;1&quot; selected=&quot;selected&quot;>Option 1&lt;/option>&#xa;    &lt;option value=&quot;2&quot;>Option 2&lt;/option>&#xa;  &lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="SuccessMessage">
+      <Object frame="" ref="SuccessMessage">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//p" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/p" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p>&#xa;    Congratulations! You must have the proper credentials.&#xa;  &lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Start">
+      <Object frame="" ref="Start">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Start']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div/button" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button>Start&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Message">
+      <Object frame="" ref="Message">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Hello World!']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div[3]/h4" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="h4" ref="type" pref="9"/>
+        <Property value="&lt;h4>Hello World!&lt;/h4>" ref="outerHTML" pref="10"/>
+        <Property value="h4" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="file">
+      <Object frame="" ref="file">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="file-upload" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='file']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/div/form/input)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="file" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;file-upload&quot; type=&quot;file&quot; name=&quot;file&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Upload">
+      <Object frame="" ref="Upload">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="file-submit" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Upload']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/form/input[2]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;button&quot; id=&quot;file-submit&quot; type=&quot;submit&quot; value=&quot;Upload&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="File Uploaded!">
+      <Object frame="" ref="File Uploaded!">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='File Uploaded!']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/h3" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="h3" ref="type" pref="9"/>
+        <Property value="&lt;h3>File Uploaded!&lt;/h3>" ref="outerHTML" pref="10"/>
+        <Property value="h3" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Ashish_CITS_Demo1.pdf">
+      <Object frame="" ref="Ashish_CITS_Demo1.pdf">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="Ashish_CITS_Demo1.pdf" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Ashish_CITS_Demo1.pdf')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/a[20]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;download/Ashish_CITS_Demo1.pdf&quot;>Ashish_CITS_Demo1.pdf&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="target">
+      <Object frame="" ref="target">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="target" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@type='text']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/form/input" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;target&quot; type=&quot;text&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Enabled">
+      <Object frame="" ref="Enabled">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="ui-id-2" ref="id" pref="3"/>
+        <Property value="Enabled" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Enabled')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div/ul/li[2]/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;#&quot; aria-haspopup=&quot;true&quot; id=&quot;ui-id-2&quot; class=&quot;ui-corner-all&quot; tabindex=&quot;-1&quot; role=&quot;menuitem&quot;>&lt;span class=&quot;ui-menu-icon ui-icon ui-icon-carat-1-e&quot;>&lt;/span>Enabled&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Downloads">
+      <Object frame="" ref="Downloads">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="ui-id-4" ref="id" pref="3"/>
+        <Property value="Downloads" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Downloads')]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/div/div/ul/li[2]/ul/li/a)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;#&quot; aria-haspopup=&quot;true&quot; id=&quot;ui-id-4&quot; class=&quot;ui-corner-all&quot; tabindex=&quot;-1&quot; role=&quot;menuitem&quot;>&lt;span class=&quot;ui-menu-icon ui-icon ui-icon-carat-1-e&quot;>&lt;/span>Downloads&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Excel">
+      <Object frame="" ref="Excel">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="ui-id-8" ref="id" pref="3"/>
+        <Property value="Excel" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Excel')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div/ul/li[2]/ul/li/ul/li[3]/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;/download/jqueryui/menu/menu.xls&quot; id=&quot;ui-id-8&quot; class=&quot;ui-corner-all&quot; tabindex=&quot;-1&quot; role=&quot;menuitem&quot;>Excel&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="User Avatar">
+      <Object frame="" ref="User Avatar">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//img[@alt='User Avatar'])[1]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/div/div/img)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="img" ref="type" pref="9"/>
+        <Property value="&lt;img src=&quot;/img/avatar-blank.jpg&quot; alt=&quot;User Avatar&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="img" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="name: user1">
+      <Object frame="" ref="name: user1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='name: user1']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/div/div/div/h5)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="h5" ref="type" pref="9"/>
+        <Property value="&lt;h5>name: user1&lt;/h5>" ref="outerHTML" pref="10"/>
+        <Property value="h5" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="View profile">
+      <Object frame="" ref="View profile">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="View profile" ref="link_text" pref="4"/>
+        <Property value="(//a[contains(normalize-space(text()),'View profile')])[1]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/div/div/div/a)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;/users/1&quot;>View profile&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="User Avatar1">
+      <Object frame="" ref="User Avatar1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//img[@alt='User Avatar'])[2]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div[2]/img" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="img" ref="type" pref="9"/>
+        <Property value="&lt;img src=&quot;/img/avatar-blank.jpg&quot; alt=&quot;User Avatar&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="img" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="name: user2">
+      <Object frame="" ref="name: user2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='name: user2']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div[2]/div/h5" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="h5" ref="type" pref="9"/>
+        <Property value="&lt;h5>name: user2&lt;/h5>" ref="outerHTML" pref="10"/>
+        <Property value="h5" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="View profile1">
+      <Object frame="" ref="View profile1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="View profile" ref="link_text" pref="4"/>
+        <Property value="(//a[contains(normalize-space(text()),'View profile')])[2]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div[2]/div/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;/users/2&quot;>View profile&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="User Avatar2">
+      <Object frame="" ref="User Avatar2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//img[@alt='User Avatar'])[3]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div[3]/img" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="img" ref="type" pref="9"/>
+        <Property value="&lt;img src=&quot;/img/avatar-blank.jpg&quot; alt=&quot;User Avatar&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="img" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="name: user3">
+      <Object frame="" ref="name: user3">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='name: user3']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div[3]/div/h5" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="h5" ref="type" pref="9"/>
+        <Property value="&lt;h5>name: user3&lt;/h5>" ref="outerHTML" pref="10"/>
+        <Property value="h5" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="View profile2">
+      <Object frame="" ref="View profile2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="View profile" ref="link_text" pref="4"/>
+        <Property value="(//a[contains(normalize-space(text()),'View profile')])[3]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/div[3]/div/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;/users/3&quot;>View profile&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Click for JS Alert">
+      <Object frame="" ref="Click for JS Alert">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//button[@onclick='jsAlert()']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div/div/ul/li/button)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button onclick=&quot;jsAlert()&quot;>Click for JS Alert&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Click for JS Confirm">
+      <Object frame="" ref="Click for JS Confirm">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//button[@onclick='jsConfirm()']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/ul/li[2]/button" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button onclick=&quot;jsConfirm()&quot;>Click for JS Confirm&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Click for JS Prompt">
+      <Object frame="" ref="Click for JS Prompt">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//button[@onclick='jsPrompt()']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/ul/li[3]/button" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button onclick=&quot;jsPrompt()&quot;>Click for JS Prompt&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="target1">
+      <Object frame="" ref="target1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="target" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@type='text']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/form/input" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;target&quot; type=&quot;text&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Click Here">
+      <Object frame="" ref="Click Here">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="Click Here" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Click Here')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div/div/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;/windows/new&quot; ,=&quot;&quot; target=&quot;_blank&quot;>Click Here&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Drag and Drop Action" ref="Drag">
+    <ObjectGroup ref="BANK">
+      <Object frame="" ref="BANK">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="BANK" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'BANK')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/main/div/div/div/div/div/div/div/div/ul/li[5]/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a class=&quot;button button-orange&quot; style=&quot;color:#FFFFFF;&quot;> BANK &lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="SALES">
+      <Object frame="" ref="SALES">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="SALES" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'SALES')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/main/div/div/div/div/div/div/div/div/ul/li[6]/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a class=&quot;button button-orange&quot; style=&quot;color:#FFFFFF;&quot;> SALES &lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="5000">
+      <Object frame="" ref="5000">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="5000" ref="link_text" pref="4"/>
+        <Property value="(//a[contains(normalize-space(text()),'5000')])[4]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/main/div/div/div/div/div/div/div/div/ul/li[4]/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Debit Account">
+      <Object frame="" ref="Debit Account">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/section/div/div/main/div/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr/td/div/div/ol/li" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/section/div/div/main/div/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr/td/div/div/ol/li)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="li" ref="type" pref="9"/>
+        <Property value="&lt;li class=&quot;placeholder&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;nbsp;&lt;br>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;nbsp;&lt;/li>" ref="outerHTML" pref="10"/>
+        <Property value="li" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Credit Account">
+      <Object frame="" ref="Credit Account">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/section/div/div/main/div/div/div/div/div/div/table/tbody/tr/td[2]/table/tbody/tr/td/div/div/ol/li" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/section/div/div/main/div/div/div/div/div/div/table/tbody/tr/td[2]/table/tbody/tr/td/div/div/ol/li)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="li" ref="type" pref="9"/>
+        <Property value="&lt;li class=&quot;placeholder&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;nbsp;&lt;br>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;nbsp;&lt;/li>" ref="outerHTML" pref="10"/>
+        <Property value="li" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Debit Amount">
+      <Object frame="" ref="Debit Amount">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/section/div/div/main/div/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr/td[2]/div/div/ol/li" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/section/div/div/main/div/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr/td[2]/div/div/ol/li)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="li" ref="type" pref="9"/>
+        <Property value="&lt;li class=&quot;placeholder&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;nbsp;&lt;br>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;nbsp;&lt;/li>" ref="outerHTML" pref="10"/>
+        <Property value="li" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Credit Amount">
+      <Object frame="" ref="Credit Amount">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//td[2]/table/tbody/tr/td[2]/div/div/ol/li" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/main/div/div/div/div/div/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/div/div/ol/li" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="li" ref="type" pref="9"/>
+        <Property value="&lt;li class=&quot;placeholder&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;nbsp;&lt;br>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;nbsp;&lt;/li>" ref="outerHTML" pref="10"/>
+        <Property value="li" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Perfect!">
+      <Object frame="" ref="Perfect!">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="Perfect!" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Perfect!')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/main/div/div/div/div/div/div/div[5]/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a class=&quot;button button-green&quot;>Perfect!&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="New Window" ref="New">
+    <ObjectGroup ref="New Window">
+      <Object frame="" ref="New Window">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//*[normalize-space(text())='New Window'])[2]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/h3" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="h3" ref="type" pref="9"/>
+        <Property value="&lt;h3>New Window&lt;/h3>" ref="outerHTML" pref="10"/>
+        <Property value="h3" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Web Test" ref="Web">
+    <ObjectGroup ref="mytext1">
+      <Object frame="0" ref="mytext1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='mytext1']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/center/center/form/div/input" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="mytext2">
+      <Object frame="0" ref="mytext2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='mytext2']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/form/div/input" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="mytext3">
+      <Object frame="1" ref="mytext3">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='mytext3']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/form/div/input" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="mytext4">
+      <Object frame="2" ref="mytext4">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='mytext4']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/form/div/input" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

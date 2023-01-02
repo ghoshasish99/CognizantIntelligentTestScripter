@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://the-internet.herokuapp.com/javascript_alerts,,
+"*2",Click for JS Alert,"Click the [<Object>] ",Click,,,The Internet
+3,Browser,Accept the alert present,acceptAlert,,,
+4,Click for JS Confirm,"Click the [<Object>] ",Click,,,The Internet
+5,Browser,Accept the alert present,acceptAlert,,,
+6,Click for JS Prompt,"Click the [<Object>] ",Click,,,The Internet
+7,Browser,Dismiss the alert present,dismissAlert,,,
+"*8",Browser,Wait for [<Data>] milli seconds,pause,@1,,

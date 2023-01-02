@@ -1,3 +1,0 @@
-Step,ObjectName,Description,Action,Input,Condition,Reference
-1,Browser,Open the Url [<Data>] in the Browser,Open,@http://bing.com,,
-2,Browser,Capture the PageTimings for the Page [<Data>],capturePageTimings,@Bing,,

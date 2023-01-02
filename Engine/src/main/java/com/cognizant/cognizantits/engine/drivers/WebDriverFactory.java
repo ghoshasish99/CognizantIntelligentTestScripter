@@ -619,6 +619,21 @@ public class WebDriverFactory {
 				options.addExtensions(FilePath.getChromeAddOnPath());
 			}
 		}
+		if(Control.getCurrentProject().getProjectSettings().getUserDefinedSettings().getProperty("incognito").equalsIgnoreCase("Yes")) {
+		  options.addArguments("--incognito");
+		}
+		
+		String projectLocation = Control.getCurrentProject().getLocation();
+		String downloadLocation = Control.getCurrentProject().getProjectSettings().getUserDefinedSettings().getProperty("downloadLocation");
+		String absoluteDownloadLocation = projectLocation + "/" + downloadLocation;
+		
+		File targetLocation = new File(absoluteDownloadLocation);
+
+		Map<String,Object> prefs = new HashMap<String, Object>();
+		prefs.put("download.default_directory", targetLocation.getAbsolutePath());
+		
+		options.setExperimentalOption("prefs", prefs);
+		
 		options.addArguments("--start-maximized");
 		options = addChromeOptions(options);
 		caps.setCapability(ChromeOptions.CAPABILITY, options);

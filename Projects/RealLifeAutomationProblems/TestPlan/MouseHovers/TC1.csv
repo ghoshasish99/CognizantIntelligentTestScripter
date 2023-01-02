@@ -1,0 +1,12 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://the-internet.herokuapp.com/hovers,,
+"*2",User Avatar,Hover over the [<Object>] element,mouseOverElement,,,The Internet
+3,name: user1,Assert if [<Object>] element is displayed,assertElementDisplayed,,,The Internet
+4,View profile,Assert if [<Object>] element is displayed,assertElementDisplayed,,,The Internet
+5,User Avatar1,Hover over the [<Object>] element,mouseOverElement,,,The Internet
+6,name: user2,Assert if [<Object>] element is displayed,assertElementDisplayed,,,The Internet
+7,View profile1,Assert if [<Object>] element is displayed,assertElementDisplayed,,,The Internet
+8,User Avatar2,Hover over the [<Object>] element,mouseOverElement,,,The Internet
+9,name: user3,Assert if [<Object>] element is displayed,assertElementDisplayed,,,The Internet
+10,View profile2,Assert if [<Object>] element is displayed,assertElementDisplayed,,,The Internet
+"*11",Browser,Wait for [<Data>] milli seconds,pause,@1,,

@@ -1,0 +1,11 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Add a variable to access within testcase,AddVar,@http://,%protocol%,
+2,Browser,Add a variable to access within testcase,AddVar,@admin,%user%,
+3,Browser,Add a variable to access within testcase,AddVar,@:,%separator%,
+4,Browser,Add a variable to access within testcase,AddVar,@admin,%password%,
+5,Browser,Add a variable to access within testcase,AddVar,@@the-internet.herokuapp.com/basic_auth,%domain%,
+6,Browser,Add a variable to access within testcase,AddVar,"=Concat(%protocol%,%user%,%separator%,%password%,%domain%):",%url%,
+7,Browser,Open the Url [<Data>] in the Browser,Open,%url%,,
+8,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+9,SuccessMessage,Assert if [<Object>] element is displayed,assertElementDisplayed,,,The Internet
+"*10",Browser,Wait for [<Data>] milli seconds,pause,@1,,

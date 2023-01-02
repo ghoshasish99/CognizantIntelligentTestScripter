@@ -1,0 +1,8 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://demo.guru99.com/test/drag_drop.html,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+"*3",BANK,"drag and drop operation of ",dragToAndDropElement,@Drag:Debit Account,,Drag
+4,SALES,"drag and drop operation of ",dragToAndDropElement,@Drag:Credit Account,,Drag
+5,5000,"drag and drop operation of ",dragToAndDropElement,@Drag:Debit Amount,,Drag
+6,5000,"drag and drop operation of ",dragToAndDropElement,@Drag:Credit Amount,,Drag
+7,Perfect!,Assert if [<Object>] is present,assertElementPresent,,,Drag

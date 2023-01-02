@@ -1,7 +1,0 @@
-<Root ref="DemoProject" type="RC">
-<Folder ref="New Group">
-<Scenario ref="BasicFeatures">
-<TestCase exeType="Executable" ref="Reusable"/>
-</Scenario>
-</Folder>
-</Root>

@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://the-internet.herokuapp.com/dropdown,,
+"*2",dropdown,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Option 1,,The Internet
+3,dropdown,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Option 2,,The Internet
+4,dropdown,Select item in [<Object>] which has the value: [<Data>],selectByValue,@1,,The Internet
+5,dropdown,Select item in [<Object>] which has the value: [<Data>],selectByValue,@2,,The Internet
+"*6",Browser,Wait for [<Data>] milli seconds,pause,@1,,

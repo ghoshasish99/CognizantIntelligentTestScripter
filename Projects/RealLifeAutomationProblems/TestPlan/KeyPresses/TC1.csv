@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://the-internet.herokuapp.com/key_presses,,
+"*2",target1,Send Keys [<Data>]  to object [<Object>].,sendKeysToElement,@TAB,,The Internet
+3,target1,Send Keys [<Data>]  to object [<Object>].,sendKeysToElement,@ESCAPE,,The Internet
+4,target1,Send Keys [<Data>]  to object [<Object>].,sendKeysToElement,@SHIFT,,The Internet
+5,target1,Send Keys [<Data>]  to object [<Object>].,sendKeysToElement,@HOME,,The Internet
+"*6",Browser,Wait for [<Data>] milli seconds,pause,@1,,

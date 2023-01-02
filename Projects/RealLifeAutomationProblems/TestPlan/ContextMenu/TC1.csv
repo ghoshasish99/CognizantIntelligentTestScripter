@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://the-internet.herokuapp.com/context_menu,,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+"*3",hot-spot,To Perform Right Click action on WebPage/Element,rightClick,,,The Internet
+4,Browser,Accept the alert present,acceptAlert,,,
+"*5",Browser,Wait for [<Data>] milli seconds,pause,@1,,
