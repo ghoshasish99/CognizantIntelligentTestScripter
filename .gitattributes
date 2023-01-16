@@ -1,1 +1,1 @@
-*.properties filter=timestamp
+Projects/*/Settings/*.Properties filter=timestamp
