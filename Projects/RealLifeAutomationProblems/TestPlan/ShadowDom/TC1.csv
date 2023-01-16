@@ -1,0 +1,8 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://watir.com/examples/shadow_dom.html,,
+"*2",some text,Highlight the element [<Object>],highlight,,,ShadowDom
+3,nested text,Highlight the element [<Object>],highlight,,,ShadowDom
+4,scroll.html-1,Highlight the element [<Object>],highlight,,,ShadowDom
+5,scroll.html-2,Highlight the element [<Object>],highlight,,,ShadowDom
+6,text box,Enter the value [<Data>] in the Field [<Object>],Set,@Dummy,,ShadowDom
+"*7",Browser,Wait for [<Data>] milli seconds,pause,@1,,

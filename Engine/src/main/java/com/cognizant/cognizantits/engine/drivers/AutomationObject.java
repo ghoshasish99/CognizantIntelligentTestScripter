@@ -349,17 +349,16 @@ public class AutomationObject {
 							tagName = attr.getValue();
 							continue;
 						}
-						/*******/
+						/*********************/
 						if (tag.equals("JSPath")) {
-							if(!attr.getValue().trim().isEmpty())
-							{								
-								JavascriptExecutor js = (JavascriptExecutor) driver;
-								elements = new ArrayList<WebElement>();
-								elements.add((WebElement) js.executeScript("return "+attr.getValue().trim()));
-								
-						    }
+							if(!attr.getValue().trim().isEmpty()) {
+							  JavascriptExecutor js = (JavascriptExecutor) driver;
+							  elements = new ArrayList<WebElement>();
+							  elements.add((WebElement) js.executeScript("return "+attr.getValue()));
+							}
 						}
-						/*******/
+						
+						/*********************/
 						if (elements!=null) {
 							return elements;
 						} 
