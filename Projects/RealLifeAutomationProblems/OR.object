@@ -680,65 +680,162 @@
       </Object>
     </ObjectGroup>
   </Page>
-  <Page title="Web Test" ref="Web">
-    <ObjectGroup ref="mytext1">
-      <Object frame="0" ref="mytext1">
+  <Page title="Shadow DOM" ref="Shadow">
+    <ObjectGroup ref="SomeText">
+      <Object frame="" ref="SomeText">
+        <Property value="document.querySelector(&quot;#shadow_host&quot;).shadowRoot.querySelector(&quot;#shadow_content > span&quot;)" ref="JSPath" pref="11"/>
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//input[@name='mytext1']" ref="relative_xpath" pref="5"/>
-        <Property value="/html/body/center/center/form/div/input" ref="xpath" pref="6"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
-        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="type" pref="9"/>
         <Property value="" ref="outerHTML" pref="10"/>
         <Property value="" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="mytext2">
-      <Object frame="0" ref="mytext2">
+    <ObjectGroup ref="NestedText">
+      <Object frame="" ref="NestedText">
+        <Property value="document.querySelector(&quot;#shadow_host&quot;).shadowRoot.querySelector(&quot;#nested_shadow_host&quot;).shadowRoot.querySelector(&quot;#nested_shadow_content > div&quot;)" ref="JSPath" pref="11"/>
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//input[@name='mytext2']" ref="relative_xpath" pref="5"/>
-        <Property value="/html/body/form/div/input" ref="xpath" pref="6"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
-        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="type" pref="9"/>
         <Property value="" ref="outerHTML" pref="10"/>
         <Property value="" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="mytext3">
-      <Object frame="1" ref="mytext3">
+    <ObjectGroup ref="Scroll1">
+      <Object frame="" ref="Scroll1">
+        <Property value="document.querySelector('#shadow_host').shadowRoot.querySelector('a')" ref="JSPath" pref="11"/>
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//input[@name='mytext3']" ref="relative_xpath" pref="5"/>
-        <Property value="/html/body/form/div/input" ref="xpath" pref="6"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
-        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="type" pref="9"/>
         <Property value="" ref="outerHTML" pref="10"/>
         <Property value="" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="mytext4">
-      <Object frame="2" ref="mytext4">
+    <ObjectGroup ref="Scroll2">
+      <Object frame="" ref="Scroll2">
         <Property value="" ref="NLP_locator" pref="1"/>
         <Property value="" ref="name" pref="2"/>
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
-        <Property value="//input[@name='mytext4']" ref="relative_xpath" pref="5"/>
-        <Property value="/html/body/form/div/input" ref="xpath" pref="6"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//a" ref="xpath" pref="6"/>
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
-        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;scroll.html&quot;>scroll.html&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="WObject0">
+      <Object frame="" ref="WObject0">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
         <Property value="" ref="outerHTML" pref="10"/>
         <Property value="" ref="tagName" pref="11"/>
+        <Property value="document.querySelector(&quot;#content > my-paragraph:nth-child(4) > span&quot;)" ref="JSPath" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="WObject1">
+      <Object frame="" ref="WObject1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+        <Property value="document.querySelector(&quot;#content > my-paragraph:nth-child(5) > ul > li:nth-child(1)&quot;)" ref="JSPath" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Page" ref="Page">
+    <ObjectGroup ref="LEFT">
+      <Object frame="" ref="LEFT">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='LEFT']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="body" ref="type" pref="9"/>
+        <Property value="&lt;body>&#xa;    LEFT&#xa;    &#xa;&#xa;&lt;/body>" ref="outerHTML" pref="10"/>
+        <Property value="body" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="MIDDLE">
+      <Object frame="" ref="MIDDLE">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='MIDDLE']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="body" ref="type" pref="9"/>
+        <Property value="&lt;div id=&quot;content&quot;>MIDDLE&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="div" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="RIGHT">
+      <Object frame="frame-right" ref="RIGHT">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='RIGHT']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="body" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="BOTTOM">
+      <Object frame="frame-bottom" ref="BOTTOM">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='BOTTOM']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="body" ref="type" pref="9"/>
+        <Property value="&lt;body>BOTTOM&#xa;&lt;/body>" ref="outerHTML" pref="10"/>
+        <Property value="body" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
   </Page>

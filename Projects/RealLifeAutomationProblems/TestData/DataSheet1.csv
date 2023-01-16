@@ -1,2 +1,3 @@
-Scenario,Flow,Iteration,SubIteration,Name
-CustomMethod,TC1,1,1,Ashish
+Scenario,Flow,Iteration,SubIteration,Name,NewColumn0
+CustomMethod,TC1,1,1,Ashish,
+01,NewTestCase,1,1,,Let's have some different text!

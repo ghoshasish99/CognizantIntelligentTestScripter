@@ -1,0 +1,10 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+"//1",Browser,Open the Url [<Data>] in the Browser,Open,@http://watir.com/examples/shadow_dom.html,,
+"//*2",SomeText,Highlight the element [<Object>],highlight,,,Shadow
+"//3",NestedText,Highlight the element [<Object>],highlight,,,Shadow
+"//*4",Scroll1,Highlight the element [<Object>],highlight,,,Shadow
+"//5",Scroll2,Highlight the element [<Object>],highlight,,,Shadow
+6,Browser,Open the Url [<Data>] in the Browser,Open,@http://the-internet.herokuapp.com/shadowdom,,
+"*7",WObject0,Highlight the element [<Object>],storeTextinDataSheet,DataSheet1:NewColumn0,,Shadow
+8,WObject1,Highlight the element [<Object>],highlight,,,Shadow
+"*9",Browser,Wait for [<Data>] milli seconds,pause,@1,,
