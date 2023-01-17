@@ -1,0 +1,15 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://the-internet.herokuapp.com/nested_frames,,
+"*2",Browser,Switch to frame by name: [<Data>],switchToFrame,@frame-top,,
+3,Browser,Switch to frame by name: [<Data>],switchToFrame,@frame-left,,
+4,LEFT,Highlight the element [<Object>],highlight,,,Page
+5,Browser,Switching control to the default window,switchToDefaultContent,,,
+6,Browser,Switch to frame by name: [<Data>],switchToFrame,@frame-top,,
+7,Browser,Switch to frame by name: [<Data>],switchToFrame,@frame-middle,,
+8,MIDDLE,Highlight the element [<Object>],highlight,,,Page
+9,Browser,Switching control to the default window,switchToDefaultContent,,,
+10,Browser,Switch to frame by name: [<Data>],switchToFrame,@frame-top,,
+11,Browser,Switch to frame by name: [<Data>],switchToFrame,@frame-right,,
+12,RIGHT,Highlight the element [<Object>],highlight,,,Page
+"*13",BOTTOM,Highlight the element [<Object>],highlight,,,Page
+"*14",Browser,Wait for [<Data>] milli seconds,pause,@1,,
